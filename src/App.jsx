@@ -1,9 +1,13 @@
-import Sidebar from "./Sidebar";
+import Channelbar from "./components/ChannelBar";
+import ContentContainer from "./components/ContentContainer";
+import SideBar from "./components/Sidebar";
 
 function App() {
   return (
     <div className="flex">
-      <Sidebar />
+      <SideBar />
+      <Channelbar />
+      <ContentContainer />
     </div>
   );
 }
