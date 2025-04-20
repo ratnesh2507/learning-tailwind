@@ -1,5 +1,11 @@
+import Sidebar from "./Sidebar";
+
 function App() {
-  return <div></div>;
+  return (
+    <div className="flex">
+      <Sidebar />
+    </div>
+  );
 }
 
 export default App;
