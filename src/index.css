@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .sidebar-icon {
+    @apply relative mx-auto mt-2 mb-2 flex h-12 w-12 items-center justify-center rounded-3xl bg-gray-800 text-green-500 transition-all hover:rounded-xl hover:bg-green-600 hover:text-white;
+  }
+}
